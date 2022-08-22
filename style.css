@@ -60,9 +60,16 @@ h3{
 
 
 /* segunda sección */
-.align{
+.align1{
     display: flex;
     flex-direction: row;
+
+}
+
+.align2{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
 
 }
 
@@ -72,31 +79,60 @@ h3{
     font-weight: 400;
     font-size: 70px;
     color: #417D9E;
-    margin-top: 100px;
+    margin-top: 120px;
     margin-left: 100px;
+    margin-bottom: 20px;
 }
 
 .paragraph-2{
     float: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: small;
-    margin-right: 250px;
+    margin-right: 150px;
     margin-left: 100px;
-    margin-top: 3px;
     color: #417D9E;
 }
 
 .image-2{
     float: right;
-    margin-top: 100px;
+    margin-top: 70px;
+    margin-right: 50px;
 
 }
 
 .image-2>img{
-     width: 600px ; 
-     height: 407;
+     width: 630px ; 
+     height: 437;
      
 }
 
+/* tercera sección */
+.mini>img{
+    align-items: center;
+}
+
+
+.paragraph-3{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: small;
+    color: #A9D4ED;
+
+}
+
+.subtitle2{
+    display:flex;
+    justify-content: center;
+    font-family: 'Italiana', serif;
+    font-weight: 400;
+    font-size: 70px;
+    color: #A9D4ED;
+}
 
