@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Italiana&family=Poppins:wght@300&display=swap');
 
 main{
-    /* float: left; */
     display: flex;
+    flex-direction: row;
     background-image: url("./src/fondolargo.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,18 +15,18 @@ main{
 h1{
     font-family: 'Italiana', serif;
     font-weight: 400;
-    font-size: larger;
+    font-size: 100px;
     margin-bottom: 5px;
     margin-top: 250px;
     display: flex;
     justify-content: center;
-    font-size: 60px;
-    color: #417D9E;
+    color: #6B9CC9;
 }
 
 h3{
     font-family: 'Dancing Script', cursive;
     font-weight: 400;
+    font-size: 25px;
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -41,19 +41,62 @@ h3{
     justify-content: center;
 
     margin: 30px;
-    margin-left: 150px;
-    margin-right: 150px;
-    color: #417D9E;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: #6B9CC9;
 }
 
 .image-banner{
     margin: 100;
-    margin-top: 120px;
-    margin-left: 200px;
-    margin-right: 50px;
+    margin-top: 130px;
+    margin-left: 100px;
+    margin-right: 3px;
     width: 30%;
 }
 
 .image-banner>img{
-    width: fit-content;
+    height: 500px;
 }
+
+
+/* segunda sección */
+.align{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.subtitle{
+    float: left;
+    font-family: 'Italiana', serif;
+    font-weight: 400;
+    font-size: 70px;
+    color: #417D9E;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.paragraph-2{
+    float: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: small;
+    margin-right: 250px;
+    margin-left: 100px;
+    margin-top: 3px;
+    color: #417D9E;
+}
+
+.image-2{
+    float: right;
+    margin-top: 100px;
+
+}
+
+.image-2>img{
+     width: 600px ; 
+     height: 407;
+     
+}
+
+
